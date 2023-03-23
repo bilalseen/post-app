@@ -47,6 +47,11 @@ function App() {
           date="1 hour ago"
         />
         <Post nickname="ilkkan" text="SMS geldi mi lan?" date="2 hour ago" />
+        <Post
+          nickname="yilmaz"
+          text="Ne olduğu önemli değil senin ne anladığın önemli."
+          date="5 hour ago"
+        />
       </ScrollView>
     </SafeAreaView>
   );
