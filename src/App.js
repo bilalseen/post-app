@@ -16,28 +16,37 @@ function App() {
         <Text style={styles.header_text}>POST-APP</Text>
       </View>
       <ScrollView style={styles.scrollView}>
-        <Post nickname="yilmaz" text="Halı çalan adamdan herşey beklenir." />
+        <Post
+          nickname="yilmaz"
+          text="Halı çalan adamdan herşey beklenir."
+          date="26 minutes ago"
+        />
         <Post
           nickname="mandosi_kadir"
           text="Benim adım Kadir. Dükkanın adı Esat fotoğrafçılık."
+          date="41 minutes ago"
         />
         <Post
           nickname="boyga_hakan"
           text="Sizden tek bir şey istedim, tek bir şey ya."
+          date="57 minutes ago"
         />
         <Post
           nickname="yilmaz"
           text="İlkkan bizim senle sırt sırta verip de s*kemeyeceğimiz insan yok, ben buna inanıyorum kardeşim.."
+          date="1 hour ago"
         />
         <Post
           nickname="ilkkan"
           text="Avcı ne kadar hile bilirse, ayı da o kadar yol bilir."
+          date="1 hour ago"
         />
         <Post
           nickname="yilmaz"
           text="Ben yanlış geldiğimi anladım da siz çok yanlış gözüküyorsunuz. Buraya ‘Mandosi’ yazıp, kendine Esat diyip, Kadir ismiyle olmuyor."
+          date="1 hour ago"
         />
-        <Post nickname="ilkkan" text="SMS geldi mi lan?" />
+        <Post nickname="ilkkan" text="SMS geldi mi lan?" date="2 hour ago" />
       </ScrollView>
     </SafeAreaView>
   );

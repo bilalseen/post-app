@@ -12,7 +12,7 @@ const Post = (props) => {
       </View>
       <View style={styles.middle}>
         <Text style={styles.text}>{props.text}</Text>
-        <Text style={styles.date}>21.03.2023</Text>
+        <Text style={styles.date}>{props.date}</Text>
       </View>
       <View style={styles.bottom}>
         <TouchableOpacity>
