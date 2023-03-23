@@ -1,4 +1,4 @@
-#Custom Components Exercises
+# Custom Components Exercises
 
-##Sub İnformation
+## Sub İnformation
 I learned to use custom component and git in this project.
