@@ -28,21 +28,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around",
   },
-  like_button: {
-    borderWidth: 1,
-    borderColor: "grey",
-    borderRadius: 10,
-  },
   like_button_text: {
     paddingLeft: 6,
     paddingRight: 6,
     color: "white",
     backgroundColor: "#bdb76b",
-    borderRadius: 10,
-  },
-  comment_button: {
-    borderWidth: 1,
-    borderColor: "grey",
     borderRadius: 10,
   },
   comment_button_text: {
@@ -52,21 +42,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#bdb76b",
     borderRadius: 10,
   },
-  send_button: {
-    borderWidth: 1,
-    borderColor: "grey",
-    borderRadius: 10,
-  },
   send_button_text: {
     paddingLeft: 6,
     paddingRight: 6,
     color: "white",
     backgroundColor: "#bdb76b",
-    borderRadius: 10,
-  },
-  save_button: {
-    borderWidth: 1,
-    borderColor: "grey",
     borderRadius: 10,
   },
   save_button_text: {
