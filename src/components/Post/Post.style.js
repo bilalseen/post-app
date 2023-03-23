@@ -6,21 +6,21 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     borderWidth: 1,
     borderRadius: 10,
-    borderColor: 'grey',
-    backgroundColor: '#ECE8E4',
+    borderColor: "grey",
+    backgroundColor: "#ECE8E4",
   },
   top: {
     margin: 10,
     marginBottom: 0,
   },
   nickname: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   middle: {
     margin: 10,
   },
   text: {
-    fontSize: 14
+    fontSize: 14,
   },
   bottom: {
     margin: 10,
@@ -28,11 +28,21 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around",
   },
+  like_button: {
+    borderWidth: 1,
+    borderColor: "grey",
+    borderRadius: 10,
+  },
   like_button_text: {
     paddingLeft: 6,
     paddingRight: 6,
     color: "white",
     backgroundColor: "#bdb76b",
+    borderRadius: 10,
+  },
+  comment_button: {
+    borderWidth: 1,
+    borderColor: "grey",
     borderRadius: 10,
   },
   comment_button_text: {
@@ -42,11 +52,21 @@ const styles = StyleSheet.create({
     backgroundColor: "#bdb76b",
     borderRadius: 10,
   },
+  send_button: {
+    borderWidth: 1,
+    borderColor: "grey",
+    borderRadius: 10,
+  },
   send_button_text: {
     paddingLeft: 6,
     paddingRight: 6,
     color: "white",
     backgroundColor: "#bdb76b",
+    borderRadius: 10,
+  },
+  save_button: {
+    borderWidth: 1,
+    borderColor: "grey",
     borderRadius: 10,
   },
   save_button_text: {
@@ -57,12 +77,12 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   date: {
-    color: 'grey',
+    color: "grey",
     fontSize: 9,
-    fontStyle: 'italic',
-    textAlign: 'right',
+    fontStyle: "italic",
+    textAlign: "right",
     marginTop: 5,
-  }
+  },
 });
 
 export default styles;

@@ -15,16 +15,16 @@ const Post = (props) => {
         <Text style={styles.date}>{props.date}</Text>
       </View>
       <View style={styles.bottom}>
-        <TouchableOpacity>
+        <TouchableOpacity style={styles.like_button}>
           <Text style={styles.like_button_text}>I LIKED</Text>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity style={styles.comment_button}>
           <Text style={styles.comment_button_text}>COMMENT</Text>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity style={styles.send_button}>
           <Text style={styles.send_button_text}>SEND</Text>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity style={styles.save_button}>
           <Text style={styles.save_button_text}>SAVE</Text>
         </TouchableOpacity>
       </View>
